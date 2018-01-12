@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Directorate of Music</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/custom_agency.css" rel="stylesheet">
+
+    <!-- Custom scripts for this template -->
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Directorate of Music</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Pin Verification</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Ekiti Anglican Diocese</div>
+          <div class="intro-heading text-uppercase">Directorate of Music</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Register</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Pin Verification</h2>
+            <hr>
+            <h3 class="section-subheading text-muted">Guide</h3>
+            <ol class="lg-custom">
+              <li class="">Enter the unique pin purchased in the space provided</li>
+              <li class="">Click the <strong>Submit</strong> button</li>
+              <li>If you get an error, click the <strong>Reset</strong> button and retype the pin</li>
+            </ol>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <form action="" method="post">
+              <fieldset>
+                <div class="error-margin" id="op"></div>
+                <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin" required>
+                <button class="btn btn-dark" name="pin_submit" type="button" id="pin_submit">Submit</button>
+                <button class="btn btn-dark" name="pin_reset" type="button" id="pin_reset">Reset</button>
+              </fieldset>
+            </form>
+            <div class="text-center success">
+              <h3 id="successh" class="successh"></h3>
+              <p id="successp" class="successp"></p>
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Register</h2>
+            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+          <form action="" method="post">
+            <div class="error-margin" id="error-margin"></div>
+            <h3 class="success-margin" id="success-margin"></h3>
+            <input name="pin2" type="hidden" value="" id="pin2">
+            <span>First Name</span><input class="input-group input-padding" type="text" id="firstname" name="firstname" placeholder="First Name" required>
+            <span>Last Name</span><input class="input-group input-padding" type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+            <span>Archdeaconry / Administrative Area Name</span><select class="input-group input-padding" name="arch" id="arch">
+              <option disabled="true" selected class="input-group" value="">-Select Archdeaconry-</option>
+            <option class="input-group " value="Cathedral">Cathedral </option>
+              <option class="input-group " value="Ado">Ado </option>
+              <option class="input-group " value="Ado North">Ado North </option>
+              <option class="input-group " value="Aisegba">Aisegba </option>
+              <option class="input-group " value="Ayede">Ayede </option>
+              <option class="input-group " value="Ekamefa">Ekamefa </option>
+              <option class="input-group " value="Ekiti North East">Ekiti North East </option>
+              <option class="input-group " value="Emure">Emure </option>
+              <option class="input-group " value="Great Commission">Great Commission </option>
+              <option class="input-group " value="Ido">Ido </option>
+              <option class="input-group " value="Ife">Ife </option>
+              <option class="input-group " value="Ifeoluwa">Ifeoluwa </option>
+              <option class="input-group " value="Igbala Otun">Igbala Otun </option>
+              <option class="input-group " value="Igbemo">Igbemo </option>
+              <option class="input-group " value="Ijan">Ijan </option>
+              <option class="input-group " value="Ikere">Ikere </option>
+              <option class="input-group " value="Ikole">Ikole </option>
+              <option class="input-group " value="Ilawe">Ilawe </option>
+              <option class="input-group " value="Irona">Irona </option>
+              <option class="input-group " value="Ise">Ise </option>
+              <option class="input-group " value="Ise North">Ise North </option>
+              <option class="input-group " value="Isokan">Isokan </option>
+              <option class="input-group " value="Omuo">Omuo </option>
+              <option class="input-group " value="Omuooke">Omuooke </option>
+              <option class="input-group" value="Opopogbooro">Opopogbooro</option>
+              <option class="input-group " value="Uro">Uro </option>
+              <option class="input-group" value="Ogotun">Ogotun</option>
+              <option class="input-group" value="Erinwa">Erinwa</option>
+              <option class="input-group" value="Ire">Ire</option>
+              <option class="input-group" value="Ijesa Isu">Ijesa Isu</option>
+              <option class="input-group" value="Ijelu">Ijelu</option>
+              <option class="input-group" value="Basiri">Basiri</option>
+              <option class="input-group" value="Babamuboni">Babamuboni</option>
+            </select>
+            <span>Church</span><select class="input-group input-padding" name="church" id="church">
+              <option disabled="true" selected class="input-group" value="">-Select Church-</option>
+              <option class="input-group" value="Cathedral">Cathedral</option>
+            </select>
+            <button class="btn btn-dark" id="register" name="register" type="button">Submit</button>
+          </form>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2017</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.js"></script>
+    <script src="js/custom_agency.js" type="text/javascript"></script>
+
+  </body>
+
+</html>

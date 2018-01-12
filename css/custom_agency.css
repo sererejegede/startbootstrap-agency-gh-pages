@@ -1,0 +1,52 @@
+.input-padding{
+    padding: 10px 20px;
+    border-radius: 5px;
+    /*text-align: center;*/
+    margin-bottom: 20px;
+}
+
+.error-margin{
+    padding: 10px 5px;
+    margin: 5px;
+    color: #fed136;
+    /*border: 2px solid white;*/
+    /*background-color: salmon;*/
+}
+
+.bigger-text{
+    font-size: 200%;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+.success-margin{
+    padding: 10px 5px;
+    margin: 5px;
+    color: #28a745;
+    /*border: 2px solid #f8f9fa;*/
+    /*background-color: salmon;*/
+}
+.success{
+    margin-top: 20px;
+    /*background-color: #adb5bd;*/
+    padding: 10px;
+}
+.success p{
+    color: #062c33
+}
+.success h3{
+    color: #28a745
+}
+
+.lg-custom li{
+    text-align: left;
+    border: none;
+}
+
+#pin_reset{
+    margin-left: 20px;
+}
+
+.col-md-6 span{
+    margin-bottom: 50px;
+    color: #fed136;
+}
