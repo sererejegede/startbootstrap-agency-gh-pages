@@ -60,15 +60,20 @@ $("#pin_submit").click(function () {
 // Checks if the pin exists and if it is unique
     $.ajax({
         url: "pin_verify.php",
+        beforeSend: function () {
+            $("#spin").html("<i class='fa fa-spinner fa-spin'></i>");
+        },
+        complete: function () {
+            $("#spin").html("");
+        },
         type: "post",
         data: {pin: pin},
         success: function (res) {
             if (isNaN(res)){
                 $("#op").html(res);
             }else{
-                $("#successh").html("Success!");
-                $("#successp").html("<a class='btn btn-success text-uppercase js-scroll-trigger' href='#portfolio'>Continue</a>");
-                $("#pin2").val(res);
+                $("#op").html("");
+                window.location = "#portfolio";
             }
         }
     });
@@ -82,6 +87,7 @@ $("#pin_submit").click(function () {
 
 //Populates the option values
 $("#arch").blur(function () {
+var Cathedral = ["Cathedral Church of Emmanuel, Ado-Ekiti"];
 
 var Ado = [  "St. Paul’s Church, Odo Ado, Ado Ekiti",
     "St. Peter’s Church, Oke-Ureje, Poly Road, Ado Ekiti",
@@ -383,13 +389,22 @@ var Babamuboni = [
     "Christ Ang. Church, Iyin Ekiti"
 ];
     var arch = $("#arch").val();
-if(arch === "Ado"){
-    var select = $("#church");
-    select.find("option").remove();
-    $.each(Ado, function (key, value) {
-        $("<option>").val(value).text(value).appendTo(select);
-    });
-}
+
+    if(arch === "Cathedral"){
+        var select = $("#church");
+        select.find("option").remove();
+        $.each(Cathedral, function (key, value) {
+            $("<option>").val(value).text(value).appendTo(select);
+        });
+    }
+
+    if(arch === "Ado"){
+        var select = $("#church");
+        select.find("option").remove();
+        $.each(Ado, function (key, value) {
+            $("<option>").val(value).text(value).appendTo(select);
+        });
+    }
     if(arch === "Ado North"){
         var select = $("#church");
         select.find("option").remove();
@@ -618,6 +633,13 @@ if(arch === "Ado"){
 
 
 // Checks if a pin has been entered
+$("#pin_reset2").click(function () {
+    $("#error-margin").html("");
+    $("#success-margin").html("");
+    $("#firstname").val("");
+    $("#secondname").val("");
+});
+
 $("#register").click(function () {
   var chkpin = $("#pin2").val();
   if (chkpin === null || chkpin === ""){
@@ -627,16 +649,18 @@ $("#register").click(function () {
 
 
     var firstname = $("#firstname").val();
-    var lastname = $("#lastname").val();
+    var lastname = $("#secondname").val();
     var church = $("#church").val();
     var arch = $("#arch").val();
 
-
-
-
-
     $.ajax({
         url: "register.php",
+        beforeSend: function () {
+            $("#spin2").html("<i class='fa fa-spinner fa-spin'></i>");
+        },
+        complete: function () {
+            $("#spin2").html("");
+        },
         type: "post",
         data: {
             firstname: firstname,
@@ -647,9 +671,10 @@ $("#register").click(function () {
         },
         success: function (success) {
             if (isNaN(success)){
+                window.location = "#back";
                 $("#error-margin").html(success);
             }
             else window.location = "success.html";
         }
-    })
+    });
 });

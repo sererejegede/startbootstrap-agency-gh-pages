@@ -1,5 +1,6 @@
 <?php
 
+//$db = mysqli_connect("162.214.10.193", "director_diocese", "Password@2018", "director_of_music");
 $db = mysqli_connect("localhost", "root", "", "dir_of_music");
 //$pina = $_POST["pin"];
 //if (isset($_POST["pin_submit"])){

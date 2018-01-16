@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>Directorate of Music</title>
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,6 +43,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about"><strong>Important Notice</strong></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Pin Verification</a>
             </li>
             <li class="nav-item">
@@ -57,12 +60,39 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Ekiti Anglican Diocese</div>
-          <div class="intro-heading text-uppercase">Directorate of Music</div>
+          <div class="text-uppercase ch">Ekiti Anglican Diocese</div>
+          <br>
+          <div class="intro-heading">
+            <h4 class="intro-lead-in text-uppercase"> Directorate of Music</h4>
+            <p class="bigger-text">2018 Organists/Choirmasters/Choristers' Retreat</p>
+          </div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Register</a>
         </div>
       </div>
     </header>
+
+    <!-- About -->
+    <section class="bg-light" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Important Notice</h2>
+            <br>
+            <ul class="list-group">
+              <li class="list-group-item">Diocesan Choir Retreat comes up Saturday, February 17, 2018.</li>
+              <li class="list-group-item">The Venue shall be the Diocesan Camp Ground, Odo Uro, Iyin Ekiti</li>
+              <li class="list-group-item">It is <strong>mandatory</strong> for all Choristers to attend, but in cases where the Churches are incapacitated by funds, five members at least should attend</li>
+              <li class="list-group-item">The retreat starts 9:00am Christian Time. Participants are to come with writing materials.</li>
+              <li class="list-group-item">Each participant is expected to pay a minimum of <b>#200</b> ( Two Hundred Naira Only ) for registration.</li>
+              <li class="list-group-item">The registration <strong>PINS</strong> are available at all Archdeaconry Headquarters.</li>
+              <li class="list-group-item">Pay close attention to the guide below before submission.</li>
+              <li class="list-group-item">Please participants should bear in mind that the said retreat is not a fashion parade, therefore indecent dressing would not be tolerated nor wondering about during retreat sessions.</li>
+              <li class="list-group-item">For details, be free to contact <i><b>08034978628</b></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Services -->
     <section id="services">
@@ -86,8 +116,8 @@
               <fieldset>
                 <div class="error-margin" id="op"></div>
                 <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin" required>
-                <button class="btn btn-dark" name="pin_submit" type="button" id="pin_submit">Submit</button>
-                <button class="btn btn-dark" name="pin_reset" type="button" id="pin_reset">Reset</button>
+                <button class="btn btn-dark" name="pin_submit" type="button" id="pin_submit">Submit <i id="spin"></i></button>
+                <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset">Reset</button>
               </fieldset>
             </form>
             <div class="text-center success">
@@ -109,16 +139,18 @@
             <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-3"></div>
           <div class="col-md-6">
           <form action="" method="post">
+            <section id="back"></section>
             <div class="error-margin" id="error-margin"></div>
             <h3 class="success-margin" id="success-margin"></h3>
             <input name="pin2" type="hidden" value="" id="pin2">
-            <span>First Name</span><input class="input-group input-padding" type="text" id="firstname" name="firstname" placeholder="First Name" required>
-            <span>Last Name</span><input class="input-group input-padding" type="text" id="lastname" name="lastname" placeholder="Last Name" required>
-            <span>Archdeaconry / Administrative Area Name</span><select class="input-group input-padding" name="arch" id="arch">
+            <span>Surname</span><input class="input-group input-padding" type="text" id="firstname" name="firstname">
+            <span>Other names</span><input class="input-group input-padding" type="text" id="secondname" name="secondname">
+            <span>Archdeaconry / Administrative Area</span><select class="input-group input-padding" name="arch" id="arch">
               <option disabled="true" selected class="input-group" value="">-Select Archdeaconry-</option>
             <option class="input-group " value="Cathedral">Cathedral </option>
               <option class="input-group " value="Ado">Ado </option>
@@ -158,7 +190,10 @@
               <option disabled="true" selected class="input-group" value="">-Select Church-</option>
               <option class="input-group" value="Cathedral">Cathedral</option>
             </select>
-            <button class="btn btn-dark" id="register" name="register" type="button">Submit</button>
+            <div class="text-center">
+            <button class="btn btn-dark" id="register" name="register" type="button">Submit <i id="spin2"></i></button>
+            <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset2">Reset</button>
+            </div>
           </form>
           </div>
           <div class="col-md-3"></div>
@@ -166,45 +201,17 @@
       </div>
     </section>
 
-    <!-- About -->
 
 
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+          <div class="col-md-12">
+            <span class="copyright">&copy;2018 Directorate of Music</span>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
+
+
         </div>
       </div>
     </footer>

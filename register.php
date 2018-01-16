@@ -1,7 +1,7 @@
 <?php
 
+//$db = mysqli_connect("162.214.10.193", "director_diocese", "Password@2018", "director_of_music");
 $db = mysqli_connect("localhost", "root", "", "dir_of_music");
-
 
 
     $firstname = mysqli_real_escape_string($db, $_POST["firstname"]);
@@ -10,19 +10,7 @@ $db = mysqli_connect("localhost", "root", "", "dir_of_music");
     $church = mysqli_real_escape_string($db, $_POST["church"]);
     $pin = mysqli_real_escape_string($db, $_POST["chkpin"]);
 
-    $Cathedral = ["Cathedral Church of Emmanuel, Ado-Ekiti"];
-    $AdoNorth = [  "St. Paul’s Church, Odo Ado, Ado Ekiti",
-                    "St. Peter’s Church, Oke-Ureje, Poly Road, Ado Ekiti",
-                    "Christ Church, Ureje, Ado Ekiti",
-                    "St. James’ Church, Oke Oniyo, Ado-Ekiti",
-                    "St. Michael’s Church, Temidire, Esunmo",
-                    "St. John’s Church, Erinfun, Ado Ekiti",
-                    "St. Paul’s Church, Aso, Ayegunle",
-                    "Church of Resurrection, Moferere, Ado Ekiti",
-                    "The Living Soul’s Church, Moferere, Ado Ekiti",
-                    "Faith Anglican Church, Ajebamidele, Ado Ekiti",
-                    "Church of Advent, Ajebamidele, Ado Ekiti"
-        ];
+
 
     if (($firstname != null || $firstname != "") && ($lastname != null || $lastname != "") && ($arch != null || $arch != "") && ($church != null || $church != "")) {
 
@@ -36,9 +24,9 @@ $db = mysqli_connect("localhost", "root", "", "dir_of_music");
         }
         echo "1";
     } elseif ($firstname == null || $firstname == ""){
-        echo "First name required";
+        echo "Surname required";
     } elseif ($lastname == null || $firstname == ""){
-        echo "Last name required";
+        echo "Input at least one other name";
     } elseif ($arch == null || $arch == ""){
         echo "Choose your archdeaconry ";
     } elseif ($church == null || $firstname == ""){
