@@ -12,6 +12,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/mdb.css">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -66,7 +67,7 @@
             <h4 class="intro-lead-in text-uppercase"> Directorate of Music</h4>
             <p class="bigger-text">2018 Organists/Choirmasters/Choristers' Retreat</p>
           </div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Register</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Start</a>
         </div>
       </div>
     </header>
@@ -75,7 +76,8 @@
     <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8 text-center">
             <h2 class="section-heading text-uppercase">Important Notice</h2>
             <br>
             <ul class="list-group">
@@ -90,6 +92,7 @@
               <li class="list-group-item">For details, be free to contact <i><b>08034978628</b></i></li>
             </ul>
           </div>
+          <div class="col-lg-2"></div>
         </div>
       </div>
     </section>
@@ -98,7 +101,8 @@
     <section id="services">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8 text-center">
             <h2 class="section-heading text-uppercase">Pin Verification</h2>
             <hr>
             <h3 class="section-subheading text-muted">Guide</h3>
@@ -108,6 +112,7 @@
               <li>If you get an error, click the <strong>Reset</strong> button and retype the pin</li>
             </ol>
           </div>
+          <div class="col-lg-2"></div>
         </div>
         <div class="row text-center">
           <div class="col-md-4"></div>
@@ -115,7 +120,7 @@
             <form action="" method="post">
               <fieldset>
                 <div class="error-margin" id="op"></div>
-                <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin" required>
+                <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin" required><br>
                 <button class="btn btn-dark" name="pin_submit" type="button" id="pin_submit">Submit <i id="spin"></i></button>
                 <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset">Reset</button>
               </fieldset>
@@ -143,15 +148,25 @@
         <div class="row">
           <div class="col-md-3"></div>
           <div class="col-md-6">
-          <form action="" method="post">
+          <form class="" action="" method="post">
             <section id="back"></section>
             <div class="error-margin" id="error-margin"></div>
             <h3 class="success-margin" id="success-margin"></h3>
             <input name="pin2" type="hidden" value="" id="pin2">
-            <span>Surname</span><input class="input-group input-padding" type="text" id="firstname" name="firstname">
-            <span>Other names</span><input class="input-group input-padding" type="text" id="secondname" name="secondname">
-            <span>Archdeaconry / Administrative Area</span><select class="input-group input-padding" name="arch" id="arch">
-              <option disabled="true" selected class="input-group" value="">-Select Archdeaconry-</option>
+            <input class="input-group input-padding" type="text" id="firstname" name="firstname">
+            <label for="firstname">Surname</label>
+            <input class="input-group input-padding" type="text" id="secondname" name="secondname">
+            <label for="secondname">Other names</label>
+            <input class="input-group input-padding" type="number" id="number" name="number">
+            <label for="secondname">Phone Number </label><br><br><br>
+            <div class="radio-custom">
+              <input type="radio" value="Chorister" name="status" id="chorister"><label for="chorister">Chorister</label>
+              <input type="radio" value="Choirmaster" name="status" id="choirmaster"><label for="choirmaster">Choirmaster</label>
+              <input type="radio" value="Organist" name="status" id="organist"><label for="organist">Organist</label>
+            </div>
+            <br><br>
+            <select class="input-group input-padding" name="arch" id="arch">
+              <option disabled="true" selected class="input-group" value=""></option>
             <option class="input-group " value="Cathedral">Cathedral </option>
               <option class="input-group " value="Ado">Ado </option>
               <option class="input-group " value="Ado North">Ado North </option>
@@ -186,10 +201,12 @@
               <option class="input-group" value="Basiri">Basiri</option>
               <option class="input-group" value="Babamuboni">Babamuboni</option>
             </select>
-            <span>Church</span><select class="input-group input-padding" name="church" id="church">
-              <option disabled="true" selected class="input-group" value="">-Select Church-</option>
+            <label for="arch">Archdeaconry / Administrative Area</label><br><br>
+            <select class="input-group input-padding" name="church" id="church">
+              <option disabled="true" selected class="input-group" value=""></option>
               <option class="input-group" value="Cathedral">Cathedral</option>
             </select>
+            <label for="church">Church</label>
             <div class="text-center">
             <button class="btn btn-dark" id="register" name="register" type="button">Submit <i id="spin2"></i></button>
             <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset2">Reset</button>

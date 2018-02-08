@@ -650,9 +650,11 @@ $("#register").click(function () {
 
     var firstname = $("#firstname").val();
     var lastname = $("#secondname").val();
+    var phoneno = $("#number").val();
+    var status = $("input:radio[name=status]:checked").val();
     var church = $("#church").val();
     var arch = $("#arch").val();
-
+// alert(status);
     $.ajax({
         url: "register.php",
         beforeSend: function () {
@@ -665,6 +667,8 @@ $("#register").click(function () {
         data: {
             firstname: firstname,
             lastname: lastname,
+            phoneno: phoneno,
+            status: status,
             church: church,
             arch: arch,
             chkpin: chkpin

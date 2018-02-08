@@ -1,9 +1,16 @@
 .input-padding{
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 0;
+    /*border-radius: 5px;*/
     /*text-align: center;*/
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
+
+.form-group input{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
 
 .error-margin{
     padding: 10px 5px;
@@ -76,7 +83,15 @@
 
 .col-md-6 form{
     margin-bottom: 100px;
-    color: #adb5bd;
+    color: #000000;
+}
+.col-lg-8{
+    margin-bottom: 20px;
+}
+
+.radio-custom label{
+    margin-right: 10%;
+    margin-left: 1%;
 }
 @media (max-width: 700px) {
     .bigger-text{
@@ -91,5 +106,9 @@
     }
     .list-group{
         font-size: 90%;
+    }
+    .radio-custom label{
+        font-size: 80%;
+        margin-right: 5%;
     }
 }
