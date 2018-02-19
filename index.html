@@ -52,6 +52,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Register</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edit.html">Update Info</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -109,7 +112,7 @@
             <ol class="lg-custom">
               <li class="">Enter the unique pin purchased in the space provided</li>
               <li class="">Click the <strong>Submit</strong> button</li>
-              <li>If you get an error, click the <strong>Reset</strong> button and retype the pin</li>
+                <li>If you want to <strong>edit</strong> your details, click <a href="edit.html"><i class="hov"> Here </i></a></li>
             </ol>
           </div>
           <div class="col-lg-2"></div>
@@ -120,9 +123,8 @@
             <form action="" method="post">
               <fieldset>
                 <div class="error-margin" id="op"></div>
-                <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin" required><br>
+                <input class="input-group input-padding" type="text" id="pin1" name="pin" placeholder="Enter Unique Pin"><br>
                 <button class="btn btn-dark" name="pin_submit" type="button" id="pin_submit">Submit <i id="spin"></i></button>
-                <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset">Reset</button>
               </fieldset>
             </form>
             <div class="text-center success">
@@ -209,7 +211,7 @@
             <label for="church">Church</label>
             <div class="text-center">
             <button class="btn btn-dark" id="register" name="register" type="button">Submit <i id="spin2"></i></button>
-            <button class="btn btn-dark pin_reset" name="pin_reset" type="button" id="pin_reset2">Reset</button>
+            <button class="btn btn-warning hide" name="pin_reset" type="button" id="update">Update <i id="spin4"></i></button>
             </div>
           </form>
           </div>
@@ -218,8 +220,21 @@
       </div>
     </section>
 
-
-
+    <!--The Modal-->
+    <div class="modal animated bounceIn fade" id="showLanguageAdd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 id="erro">You have <i id="trials"></i> trials left</h4><br><br>
+                    <form action="#">
+                        <input class="input-group" id="pin_edit" type="text" name="pin" placeholder="Enter Your Unique Pin"/>
+                        <label for="pin_edit">Pin</label><br/>
+                        <button class="btn btn-success" id="edit" name="register" type="button">Submit <i id="spin3"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
       <div class="container">

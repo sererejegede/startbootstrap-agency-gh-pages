@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ab5735c-2760-4d55-b1d3-403a1a70d9fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/startbootstrap-agency-gh-pages.iml" afterPath="$PROJECT_DIR$/.idea/startbootstrap-agency-gh-pages.iml" />
+    <list default="true" id="7ab5735c-2760-4d55-b1d3-403a1a70d9fc" name="Default" comment="Changed label for phoneno">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom_agency.css" afterPath="$PROJECT_DIR$/css/custom_agency.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/agency.js" afterPath="$PROJECT_DIR$/js/agency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pin_verify.php" afterPath="$PROJECT_DIR$/pin_verify.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/success.html" afterPath="$PROJECT_DIR$/success.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,17 +29,89 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="count" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dir_of_music" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="choir_data" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="160" column="48" lean-forward="false" selection-start-line="160" selection-start-column="48" selection-end-line="160" selection-end-column="48" />
+            <state relative-caret-position="-816">
+              <caret line="114" column="95" lean-forward="false" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
               <folding>
                 <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+              <folding>
+                <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -42,23 +120,101 @@
       <file leaf-file-name="agency.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/agency.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="670" column="27" lean-forward="true" selection-start-line="670" selection-start-column="27" selection-end-line="670" selection-end-column="27" />
+            <state relative-caret-position="-901">
+              <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               <folding>
                 <element signature="e#13#1504#0" expanded="false" />
-                <element signature="e#2441#19443#0" expanded="false" />
+                <element signature="e#2860#13236#0" expanded="false" />
+                <element signature="e#3262#3511#0" expanded="false" />
+                <element signature="e#3535#3827#0" expanded="false" />
+                <element signature="e#3845#4078#0" expanded="false" />
+                <element signature="e#4099#4397#0" expanded="false" />
+                <element signature="e#4418#4639#0" expanded="false" />
+                <element signature="e#4660#5089#0" expanded="false" />
+                <element signature="e#5107#5361#0" expanded="false" />
+                <element signature="e#5387#5823#0" expanded="false" />
+                <element signature="e#5845#6139#0" expanded="false" />
+                <element signature="e#6158#6538#0" expanded="false" />
+                <element signature="e#6559#6767#0" expanded="false" />
+                <element signature="e#6790#7089#0" expanded="false" />
+                <element signature="e#7107#7439#0" expanded="false" />
+                <element signature="e#7524#8088#0" expanded="false" />
+                <element signature="e#8111#8557#0" expanded="false" />
+                <element signature="e#8579#9048#0" expanded="false" />
+                <element signature="e#9068#9451#0" expanded="false" />
+                <element signature="e#9473#9737#0" expanded="false" />
+                <element signature="e#9766#9899#0" expanded="false" />
+                <element signature="e#9919#10333#0" expanded="false" />
+                <element signature="e#10363#10714#0" expanded="false" />
+                <element signature="e#10732#10926#0" expanded="false" />
+                <element signature="e#10944#11140#0" expanded="false" />
+                <element signature="e#11163#11395#0" expanded="false" />
+                <element signature="e#11420#11657#0" expanded="false" />
+                <element signature="e#11678#11811#0" expanded="false" />
+                <element signature="e#11830#12002#0" expanded="false" />
+                <element signature="e#12022#12256#0" expanded="false" />
+                <element signature="e#12276#12623#0" expanded="false" />
+                <element signature="e#12643#12816#0" expanded="false" />
+                <element signature="e#12836#13230#0" expanded="false" />
+                <element signature="e#13243#15973#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <marker date="1519066367295" expanded="true" signature="709:769" ph="SELECT pin, choir_data" />
+                <marker date="1519066367295" expanded="true" signature="1208:1258" ph="SELECT count... count" />
+                <marker date="1519066367295" expanded="true" signature="1493:2051" ph="UPDATE choir... " />
+                <marker date="1519066367295" expanded="true" signature="2297:2477" ph="UPDATE count... " />
+                <marker date="1519066367295" expanded="true" signature="2297:2518" ph="UPDATE count... " />
+                <marker date="1519066367295" expanded="true" signature="2297:2519" ph="UPDATE count... " />
+                <marker date="1519066367295" expanded="true" signature="2303:2477" ph="INSERT INTO count... " />
+                <marker date="1519066367295" expanded="true" signature="2353:2422" ph="SELECT choir... choir_data" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_agency.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/custom_agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="233" lean-forward="false" selection-start-line="16" selection-start-column="233" selection-end-line="16" selection-end-column="233" />
+            <state relative-caret-position="374">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
-                <marker date="1518120134162" expanded="true" signature="889:1048" ph="INSERT INTO choir_data... " />
+                <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+                <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+                <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+                <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+                <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pin_verify.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pin_verify.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+                <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
               </folding>
             </state>
           </provider>
@@ -66,15 +222,37 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Edit</find>
+      <find>id=&quot;spin</find>
+      <find>back</find>
+      <find>error</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/success.html" />
+        <option value="$PROJECT_DIR$/EditClass.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/pin_verify.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/custom_agency.css" />
         <option value="$PROJECT_DIR$/js/agency.js" />
         <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/edit.php" />
+        <option value="$PROJECT_DIR$/edit.html" />
       </list>
     </option>
   </component>
@@ -111,6 +289,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,13 +319,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="key&#9;ACTION&#9;Help.KeymapReference" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,8 +340,80 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -169,34 +422,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515223629312</updated>
-      <workItem from="1518118635422" duration="2086000" />
+      <workItem from="1518118635422" duration="2720000" />
+      <workItem from="1518397703287" duration="692000" />
+      <workItem from="1518835625502" duration="38178000" />
+      <workItem from="1518952871157" duration="3253000" />
+      <workItem from="1518956266484" duration="673000" />
+      <workItem from="1519063524389" duration="4753000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed label for phoneno">
+      <created>1518851721295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518851721295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2086000" />
+    <option name="totallyTimeSpent" value="50269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14425983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15558912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15634441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -206,14 +472,375 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed label for phoneno" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed label for phoneno" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="1938">
+          <caret line="114" column="95" lean-forward="false" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15283">
+          <caret line="899" column="1" lean-forward="false" selection-start-line="899" selection-start-column="1" selection-end-line="899" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding>
+            <marker date="1519066367295" expanded="true" signature="709:769" ph="SELECT pin, choir_data" />
+            <marker date="1519066367295" expanded="true" signature="1208:1258" ph="SELECT count... count" />
+            <marker date="1519066367295" expanded="true" signature="1493:2051" ph="UPDATE choir... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2477" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2518" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2519" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2303:2477" ph="INSERT INTO count... " />
+            <marker date="1519066367295" expanded="true" signature="2353:2422" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom_agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9673">
+          <caret line="569" column="90" lean-forward="false" selection-start-line="569" selection-start-column="90" selection-end-line="569" selection-end-column="90" />
+          <folding>
+            <element signature="e#13#1504#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="95" lean-forward="false" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9741">
+          <caret line="573" column="130" lean-forward="false" selection-start-line="573" selection-start-column="130" selection-end-line="573" selection-end-column="130" />
+          <folding>
+            <element signature="e#13#1504#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding>
+            <marker date="1519066367295" expanded="true" signature="709:769" ph="SELECT pin, choir_data" />
+            <marker date="1519066367295" expanded="true" signature="1208:1258" ph="SELECT count... count" />
+            <marker date="1519066367295" expanded="true" signature="1493:2051" ph="UPDATE choir... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2477" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2518" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2519" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2303:2477" ph="INSERT INTO count... " />
+            <marker date="1519066367295" expanded="true" signature="2353:2422" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom_agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15793">
+          <caret line="929" column="1" lean-forward="false" selection-start-line="929" selection-start-column="1" selection-end-line="929" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="95" lean-forward="false" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="58" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="58" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom_agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <marker date="1519066367295" expanded="true" signature="709:769" ph="SELECT pin, choir_data" />
+            <marker date="1519066367295" expanded="true" signature="1208:1258" ph="SELECT count... count" />
+            <marker date="1519066367295" expanded="true" signature="1493:2051" ph="UPDATE choir... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2477" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2518" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2519" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2303:2477" ph="INSERT INTO count... " />
+            <marker date="1519066367295" expanded="true" signature="2353:2422" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9639">
+          <caret line="567" column="50" lean-forward="true" selection-start-line="567" selection-start-column="50" selection-end-line="567" selection-end-column="50" />
+          <folding>
+            <element signature="e#13#1504#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
           <caret line="160" column="48" lean-forward="false" selection-start-line="160" selection-start-column="48" selection-end-line="160" selection-end-column="48" />
           <folding>
             <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -221,23 +848,299 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="233" lean-forward="false" selection-start-line="16" selection-start-column="233" selection-end-line="16" selection-end-column="233" />
+          <folding>
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/agency.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="670" column="27" lean-forward="true" selection-start-line="670" selection-start-column="27" selection-end-line="670" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
           <folding>
             <element signature="e#13#1504#0" expanded="false" />
-            <element signature="e#2441#19443#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="48" lean-forward="false" selection-start-line="160" selection-start-column="48" selection-end-line="160" selection-end-column="48" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="272">
           <caret line="16" column="233" lean-forward="false" selection-start-line="16" selection-start-column="233" selection-end-line="16" selection-end-column="233" />
           <folding>
-            <marker date="1518120134162" expanded="true" signature="889:1048" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#13#1504#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="5" column="5639" lean-forward="false" selection-start-line="5" selection-start-column="5639" selection-end-line="5" selection-end-column="5639" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EditClass.php" />
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3baf2d0-a75c-436f-9a7c-4f1b53e2b3a0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15283">
+          <caret line="899" column="1" lean-forward="false" selection-start-line="899" selection-start-column="1" selection-end-line="899" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pin_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <marker date="1518889841241" expanded="true" signature="423:468" ph="SELECT * FRO... unique_pin" />
+            <marker date="1518889841241" expanded="true" signature="480:525" ph="SELECT * FRO... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom_agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="114" column="95" lean-forward="false" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <marker date="1519064479801" expanded="true" signature="889:1069" ph="INSERT INTO choir_data... " />
+            <marker date="1519064479801" expanded="true" signature="1375:1522" ph="INSERT INTO count... " />
+            <marker date="1519064479801" expanded="true" signature="1443:1487" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1493" ph="SELECT choir... choir_data" />
+            <marker date="1519064479801" expanded="true" signature="1443:1499" ph="SELECT choir... choir_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+          <folding>
+            <element signature="n#select#0;n#form#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/agency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#13#1504#0" expanded="false" />
+            <element signature="e#2860#13236#0" expanded="false" />
+            <element signature="e#3262#3511#0" expanded="false" />
+            <element signature="e#3535#3827#0" expanded="false" />
+            <element signature="e#3845#4078#0" expanded="false" />
+            <element signature="e#4099#4397#0" expanded="false" />
+            <element signature="e#4418#4639#0" expanded="false" />
+            <element signature="e#4660#5089#0" expanded="false" />
+            <element signature="e#5107#5361#0" expanded="false" />
+            <element signature="e#5387#5823#0" expanded="false" />
+            <element signature="e#5845#6139#0" expanded="false" />
+            <element signature="e#6158#6538#0" expanded="false" />
+            <element signature="e#6559#6767#0" expanded="false" />
+            <element signature="e#6790#7089#0" expanded="false" />
+            <element signature="e#7107#7439#0" expanded="false" />
+            <element signature="e#7524#8088#0" expanded="false" />
+            <element signature="e#8111#8557#0" expanded="false" />
+            <element signature="e#8579#9048#0" expanded="false" />
+            <element signature="e#9068#9451#0" expanded="false" />
+            <element signature="e#9473#9737#0" expanded="false" />
+            <element signature="e#9766#9899#0" expanded="false" />
+            <element signature="e#9919#10333#0" expanded="false" />
+            <element signature="e#10363#10714#0" expanded="false" />
+            <element signature="e#10732#10926#0" expanded="false" />
+            <element signature="e#10944#11140#0" expanded="false" />
+            <element signature="e#11163#11395#0" expanded="false" />
+            <element signature="e#11420#11657#0" expanded="false" />
+            <element signature="e#11678#11811#0" expanded="false" />
+            <element signature="e#11830#12002#0" expanded="false" />
+            <element signature="e#12022#12256#0" expanded="false" />
+            <element signature="e#12276#12623#0" expanded="false" />
+            <element signature="e#12643#12816#0" expanded="false" />
+            <element signature="e#12836#13230#0" expanded="false" />
+            <element signature="e#13243#15973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <marker date="1519066367295" expanded="true" signature="709:769" ph="SELECT pin, choir_data" />
+            <marker date="1519066367295" expanded="true" signature="1208:1258" ph="SELECT count... count" />
+            <marker date="1519066367295" expanded="true" signature="1493:2051" ph="UPDATE choir... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2477" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2518" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2297:2519" ph="UPDATE count... " />
+            <marker date="1519066367295" expanded="true" signature="2303:2477" ph="INSERT INTO count... " />
+            <marker date="1519066367295" expanded="true" signature="2353:2422" ph="SELECT choir... choir_data" />
           </folding>
         </state>
       </provider>

@@ -15,8 +15,8 @@ $db = mysqli_connect("localhost", "root", "", "dir_of_music");
 //    echo $pin;
 
 
-$sql = "SELECT * FROM unique_pin WHERE pin = '$pin'";
-$sql2 = "SELECT * FROM choir_data WHERE pin = '$pin'";
+$sql = "SELECT pin FROM unique_pin WHERE pin = '$pin'";
+$sql2 = "SELECT pin FROM choir_data WHERE pin = '$pin'";
 $result = mysqli_query($db, $sql);
 $result2 = mysqli_query($db, $sql2);
 

@@ -1,7 +1,7 @@
 <?php
 
-//$db = mysqli_connect("162.214.10.193", "director_diocese", "Password@2018", "director_of_music");
-$db = mysqli_connect("localhost", "root", "", "dir_of_music");
+$db = mysqli_connect("162.214.10.193", "director_diocese", "Password@2018", "director_of_music");
+//$db = mysqli_connect("localhost", "root", "", "dir_of_music");
 
 
     $firstname = mysqli_real_escape_string($db, $_POST["firstname"]);
@@ -16,7 +16,8 @@ $db = mysqli_connect("localhost", "root", "", "dir_of_music");
 
     if (($firstname != null || $firstname != "") && ($lastname != null || $lastname != "") && ($status != null || $status != "") && ($arch != null || $arch != "") && ($church != null || $church != "") && ($phoneno != null || $phoneno != "")) {
 
-        $sql = "INSERT INTO choir_data (pin, fname, lname, phoneno, status, church, arch) VALUES ('$pin', '$firstname', '$lastname', '$phoneno', '$status', '$church', '$arch')";
+        $sql = "INSERT INTO choir_data (pin, fname, lname, phoneno, status, church, arch) VALUES (
+                    '$pin', '$firstname', '$lastname', '$phoneno', '$status', '$church', '$arch')";
         if ($pin == null || $pin == "") {
             echo "<a class='btn btn-danger text-uppercase js-scroll-trigger' href='#services'>You must use a pin</a>";
             return;
@@ -24,6 +25,10 @@ $db = mysqli_connect("localhost", "root", "", "dir_of_music");
         if (!mysqli_query($db, $sql)) {
             die ("An error occurred");
         }
+        $sql_insert = "INSERT INTO count (choir_id, count) VALUES (
+                      (SELECT choir_id FROM choir_data WHERE pin = '$pin'), '0' 
+                    )";
+        mysqli_query($db, $sql_insert);
         echo "1";
     } elseif ($firstname == null || $firstname == ""){
         echo "Surname required";
